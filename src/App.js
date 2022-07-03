@@ -1,10 +1,20 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/home/Home";
+import { Hotel } from "./pages/hotel/Hotel";
+import { List } from "./pages/list/List";
+import './app.css';
 
 
 function App() {
   return (
     <div className="App">
-      
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/hotels" element={<List />} />
+          <Route path="/hotels/:id" element={<Hotel />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
