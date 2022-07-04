@@ -1,0 +1,43 @@
+.properties {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.properties__item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+.properties__image {
+  width: 100%;
+}
+
+.properties__name {
+  font-weight: 800;
+}
+
+.properties__city {
+  font-weight: 400px;
+}
+
+.properties__price {
+  font-weight: 500;
+}
+
+.properties__rating > button {
+  background-color: #003580;
+  color: #ffffff;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+.properties__rating > span {
+  font-size: 14px;
+}
