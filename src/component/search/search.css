@@ -1,0 +1,110 @@
+.search__item {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.search__item__image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.search__item_description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.search__item__title {
+  font-size: 20px;
+  columns: #0071c2;
+}
+
+.search__item__distance {
+  font-size: 12px;
+}
+
+.search__taxi {
+  font-size: 12px;
+  background-color: #008009;
+  color: #ffffff;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.seacrh__item_subtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.seacrh__item__features {
+  font-size: 12px;
+}
+
+.search__item__cancel {
+  font-size: 12px;
+  color: #008009;
+  font-weight: bold;
+}
+
+.search__item__cancel__subtitle {
+  font-size: 12px;
+  color: #008009;
+}
+
+.search__item_details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.search__rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__rating > span {
+  font-weight: 500;
+}
+
+.search__rating > button {
+  background-color: #003580;
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+.search__item__detailtext {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.search__item__price {
+  font-size: 24px;
+}
+
+.search__item__tax {
+  font-size: 12px;
+  color: #555;
+}
+
+.search__item__checkbutton {
+  background-color: #0071c2;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
